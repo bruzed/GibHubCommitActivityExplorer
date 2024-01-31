@@ -1,0 +1,70 @@
+.main {
+  position: absolute;
+  left: 0;
+  top: 48px;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: white;
+}
+
+.main ul {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.main li {
+  padding: 1rem 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+.main li:hover {
+  background-color: var(--yellow);
+}
+
+.owner, .slash {
+  color: var(--green);
+}
+
+.slash {
+  padding: 0.25rem;
+}
+
+.name {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.loaderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.loader {
+  color: var(--blue);
+  animation: rotate 3s linear infinite;
+  transform: translateY(-50%);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

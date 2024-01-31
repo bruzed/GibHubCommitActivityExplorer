@@ -1,0 +1,88 @@
+#repositoryCard {
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+  opacity: 1;
+}
+
+#repositoryCard.hoverOn {
+  opacity: 1;
+}
+
+#repositoryCard.hoverOff {
+  opacity: 0.5;
+}
+
+.innerContainer {
+  display: flex;
+  margin-left: 16px;
+  border-top: 1px solid var(--light-grey);
+  border-right: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
+  justify-content: space-between;
+  background-color: var(--blue);
+  border-radius: 3px;
+}
+
+.metadata, .deleteButton {
+  padding: 1rem;
+}
+
+.repositoryName {
+  margin-bottom: 0.5rem;
+}
+
+.owner, .slash {
+  color: var(--light-grey);
+}
+
+.slash {
+  padding: 0.5rem;
+}
+
+.name {
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.repositoryStats {
+  display: flex;
+  align-items: center;
+}
+
+.stargazersCount {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  color: var(--yellow);
+}
+
+.star {
+  padding-right: 6px;
+  color: var(--yellow);
+}
+
+.updatedAt {
+  color: var(--orange);
+  font-size: 0.9rem;
+}
+
+.deleteButton {
+  border: 0;
+  margin: 0;
+  background-color: transparent;
+  color: var(--light-grey);
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+  opacity: 0.6;
+}
+
+.deleteButton:hover {
+  opacity: 1;
+}

@@ -1,0 +1,16 @@
+{
+  "status": 202,
+  "url": "https://api.github.com/repos/flutter/engine/stats/commit_activity",
+  "headers": {
+    "content-length": "5",
+    "content-type": "application/json; charset=utf-8",
+    "x-github-media-type": "github.v3; format=json",
+    "x-github-request-id": "CF3A:71D9:2B138:5985F:656F8F33",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4979",
+    "x-ratelimit-reset": "1701810426",
+    "x-ratelimit-resource": "core",
+    "x-ratelimit-used": "21"
+  },
+  "data": {}
+}

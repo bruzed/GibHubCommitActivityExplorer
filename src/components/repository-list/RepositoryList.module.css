@@ -1,0 +1,23 @@
+#repositoryList {
+  margin-top: 8px;
+  box-sizing: border-box;
+  overflow: auto;
+  height: calc(100% - var(--search-bar-margin-top) - var(--search-bar-height) - 8px);
+}
+
+.instruction {
+  background-color: var(--blue);
+  color: var(--light-grey);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.instruction p {
+  padding: 0.75rem 0;
+}
